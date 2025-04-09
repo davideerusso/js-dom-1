@@ -8,9 +8,6 @@ console.log(lampadinaSpenta);
 console.log(button);
 
 button.addEventListener("click", () => {
-  //   button.classList.replace("btn-secondary", "btn-primary");
-  //   button.innerHTML = "Acceso";
-  //   lampadinaSpenta.src = "./img/yellow_lamp.png";
   if (button.classList.contains("btn-primary")) {
     button.classList.replace("btn-primary", "btn-secondary");
     button.innerHTML = "Spento";
